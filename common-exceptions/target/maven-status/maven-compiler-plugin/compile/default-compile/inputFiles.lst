@@ -1,0 +1,9 @@
+/home/projects/download-manager/rewrite/common-exceptions/src/main/java/com/mraleksmay/projects/download_manager/common/exception/DownloadAlreadyStopException.java
+/home/projects/download-manager/rewrite/common-exceptions/src/main/java/com/mraleksmay/projects/download_manager/common/exception/UpdateThreadAlreadyStopException.java
+/home/projects/download-manager/rewrite/common-exceptions/src/main/java/com/mraleksmay/projects/download_manager/common/exception/UserNotFoundException.java
+/home/projects/download-manager/rewrite/common-exceptions/src/main/java/com/mraleksmay/projects/download_manager/common/exception/ThreadAlreadyStart.java
+/home/projects/download-manager/rewrite/common-exceptions/src/main/java/com/mraleksmay/projects/download_manager/common/exception/RetrieveInformationThreadAlreadyRunning.java
+/home/projects/download-manager/rewrite/common-exceptions/src/main/java/com/mraleksmay/projects/download_manager/common/exception/UserAlreadyExists.java
+/home/projects/download-manager/rewrite/common-exceptions/src/main/java/com/mraleksmay/projects/download_manager/common/exception/DownloadAlreadyStartException.java
+/home/projects/download-manager/rewrite/common-exceptions/src/main/java/com/mraleksmay/projects/download_manager/common/exception/ThreadAlreadyStop.java
+/home/projects/download-manager/rewrite/common-exceptions/src/main/java/com/mraleksmay/projects/download_manager/common/exception/UpdateThreadAlreadyRunningException.java

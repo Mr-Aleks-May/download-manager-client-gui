@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="common-view:jar">
+    <output-path>$PROJECT_DIR$/commons</output-path>
+    <root id="archive" name="common_view.jar">
+      <element id="module-output" name="common-view" />
+      <element id="module-output" name="common-annotations" />
+      <element id="module-output" name="common-events" />
+      <element id="module-output" name="common-exceptions" />
+      <element id="module-output" name="common-plugin" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/annotations/13.0/annotations-13.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

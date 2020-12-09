@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="common-events:jar">
+    <output-path>$PROJECT_DIR$/commons</output-path>
+    <root id="archive" name="common_events.jar">
+      <element id="module-output" name="common-events" />
+    </root>
+  </artifact>
+</component>

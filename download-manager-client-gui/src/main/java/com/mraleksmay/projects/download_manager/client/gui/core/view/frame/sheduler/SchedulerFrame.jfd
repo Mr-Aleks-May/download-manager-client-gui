@@ -1,0 +1,96 @@
+JFDML JFormDesigner: "7.0.3.0.337" Java: "11.0.7" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class java.awt.GridBagLayout ) {
+			"$columnSpecs": "0:1.0"
+			"$rowSpecs": "0:1.0"
+			"$hGap": 5
+			"$vGap": 5
+			"$alignLeft": true
+			"$alignTop": true
+		} ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JTabbedPane", new FormLayoutManager( class javax.swing.JTabbedPane ) ) {
+				name: "tabbedPane1"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridBagLayout ) {
+					"$columnSpecs": "0:1.0, 0"
+					"$rowSpecs": "0, 0:1.0"
+					"$hGap": 5
+					"$vGap": 5
+					"$alignLeft": true
+					"$alignTop": true
+				} ) {
+					name: "panel2"
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridBagLayout ) {
+						"$columnSpecs": "0, 0, 0, 0, 0, 0:1.0, 0, 0"
+						"$rowSpecs": "0"
+						"$hGap": 5
+						"$vGap": 5
+						"$alignLeft": true
+						"$alignTop": true
+					} ) {
+						name: "panel3"
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label1"
+							"text": "Count:"
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) )
+						add( new FormComponent( "javax.swing.JSpinner" ) {
+							name: "jspnr_queueSize"
+							"model": new javax.swing.SpinnerNumberModel( 8, 1, 10, 1 )
+							addEvent( new FormEvent( "javax.swing.event.ChangeListener", "stateChanged", "jspnr_queueSizeStateChanged", true ) )
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+							"gridx": 1
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "jbtn_dowloadUp"
+							"text": "Up"
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jbtn_dowloadUpActionPerformed", true ) )
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+							"gridx": 3
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "jbtn_downloadDown"
+							"text": "Down"
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jbtn_downloadDownActionPerformed", true ) )
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+							"gridx": 4
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "jbtn_schedulerStartAll"
+							"text": "Start"
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jbtn_schedulerStartAllActionPerformed", true ) )
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+							"gridx": 6
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "jbtn_schedulerStopAll"
+							"text": "Stop"
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jbtn_schedulerStopAllActionPerformed", true ) )
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+							"gridx": 7
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridwidth": 2
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane1"
+						add( new FormComponent( "javax.swing.JTable" ) {
+							name: "jtbl_queue"
+							"selectionMode": 0
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridy": 1
+						"gridwidth": 2
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "Queue"
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 615, 470 )
+		} )
+	}
+}

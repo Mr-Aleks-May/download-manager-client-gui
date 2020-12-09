@@ -1,0 +1,5 @@
+com/mraleksmay/projects/download_manager/common/util/file/FileWorker.class
+com/mraleksmay/projects/download_manager/common/util/security/SecurityUtil.class
+com/mraleksmay/projects/download_manager/common/util/date/TimeUtil.class
+com/mraleksmay/projects/download_manager/common/util/image/ImageWorker.class
+com/mraleksmay/projects/download_manager/common/util/downloader/NetworkUtil.class

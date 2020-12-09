@@ -1,0 +1,13 @@
+com/mraleksmay/projects/download_manager/common/model/download/Download$Status.class
+com/mraleksmay/projects/download_manager/common/model/download/AuthorizationData.class
+com/mraleksmay/projects/download_manager/common/model/user/settings/Settings$UISettings.class
+com/mraleksmay/projects/download_manager/common/model/Restoreable.class
+com/mraleksmay/projects/download_manager/common/model/group/Group.class
+com/mraleksmay/projects/download_manager/common/model/download/Download.class
+com/mraleksmay/projects/download_manager/common/model/user/settings/Settings$DownloaderSettings.class
+com/mraleksmay/projects/download_manager/common/model/plugin/Pluggable.class
+com/mraleksmay/projects/download_manager/common/model/plugin/Plugin.class
+com/mraleksmay/projects/download_manager/common/model/download/DownloadFormatter.class
+com/mraleksmay/projects/download_manager/common/model/category/Category.class
+com/mraleksmay/projects/download_manager/common/model/user/User.class
+com/mraleksmay/projects/download_manager/common/model/user/settings/Settings.class

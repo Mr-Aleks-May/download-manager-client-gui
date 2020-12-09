@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../youtube-plugin/pom.xml" />
+        <option value="$PROJECT_DIR$/../download-manager-client-gui-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/../client-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/../download-manager-plugin-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../download-manager-client-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/../common-annotations/pom.xml" />
+        <option value="$PROJECT_DIR$/../common-view/pom.xml" />
+        <option value="$PROJECT_DIR$/../common-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/../common-events/pom.xml" />
+        <option value="$PROJECT_DIR$/../common-exceptions/pom.xml" />
+        <option value="$PROJECT_DIR$/../common-model/pom.xml" />
+        <option value="$PROJECT_DIR$/../plugin-youtube/pom.xml" />
+        <option value="$PROJECT_DIR$/../common-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/../common-plugin/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="14" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,9 @@
+com/mraleksmay/projects/download_manager/common/exception/DownloadAlreadyStartException.class
+com/mraleksmay/projects/download_manager/common/exception/UserAlreadyExists.class
+com/mraleksmay/projects/download_manager/common/exception/RetrieveInformationThreadAlreadyRunning.class
+com/mraleksmay/projects/download_manager/common/exception/ThreadAlreadyStart.class
+com/mraleksmay/projects/download_manager/common/exception/UserNotFoundException.class
+com/mraleksmay/projects/download_manager/common/exception/ThreadAlreadyStop.class
+com/mraleksmay/projects/download_manager/common/exception/UpdateThreadAlreadyStopException.class
+com/mraleksmay/projects/download_manager/common/exception/UpdateThreadAlreadyRunningException.class
+com/mraleksmay/projects/download_manager/common/exception/DownloadAlreadyStopException.class

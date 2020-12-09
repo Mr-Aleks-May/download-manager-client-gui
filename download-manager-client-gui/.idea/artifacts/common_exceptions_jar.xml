@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="common-exceptions:jar">
+    <output-path>$PROJECT_DIR$/commons</output-path>
+    <root id="archive" name="common_exceptions.jar">
+      <element id="module-output" name="common-exceptions" />
+    </root>
+  </artifact>
+</component>

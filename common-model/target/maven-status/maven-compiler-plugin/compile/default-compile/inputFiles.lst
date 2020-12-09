@@ -1,0 +1,10 @@
+/home/projects/download-manager/rewrite/common-model/src/main/java/com/mraleksmay/projects/download_manager/common/model/group/Group.java
+/home/projects/download-manager/rewrite/common-model/src/main/java/com/mraleksmay/projects/download_manager/common/model/plugin/Pluggable.java
+/home/projects/download-manager/rewrite/common-model/src/main/java/com/mraleksmay/projects/download_manager/common/model/user/User.java
+/home/projects/download-manager/rewrite/common-model/src/main/java/com/mraleksmay/projects/download_manager/common/model/download/AuthorizationData.java
+/home/projects/download-manager/rewrite/common-model/src/main/java/com/mraleksmay/projects/download_manager/common/model/download/DownloadFormatter.java
+/home/projects/download-manager/rewrite/common-model/src/main/java/com/mraleksmay/projects/download_manager/common/model/category/Category.java
+/home/projects/download-manager/rewrite/common-model/src/main/java/com/mraleksmay/projects/download_manager/common/model/user/settings/Settings.java
+/home/projects/download-manager/rewrite/common-model/src/main/java/com/mraleksmay/projects/download_manager/common/model/plugin/Plugin.java
+/home/projects/download-manager/rewrite/common-model/src/main/java/com/mraleksmay/projects/download_manager/common/model/download/Download.java
+/home/projects/download-manager/rewrite/common-model/src/main/java/com/mraleksmay/projects/download_manager/common/model/Restoreable.java

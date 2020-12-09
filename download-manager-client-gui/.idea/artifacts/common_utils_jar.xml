@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="common-utils:jar">
+    <output-path>$PROJECT_DIR$/commons</output-path>
+    <root id="archive" name="common_utils.jar">
+      <element id="module-output" name="common-utils" />
+      <element id="module-output" name="common-annotations" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/annotations/13.0/annotations-13.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/sejda/webp-imageio/webp-imageio-sejda/0.1.0/webp-imageio-sejda-0.1.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

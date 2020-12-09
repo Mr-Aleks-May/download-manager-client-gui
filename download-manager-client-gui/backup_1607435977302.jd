@@ -1,0 +1,359 @@
+[
+  {
+    "serializableId": "PLUGIN-COMMON-CORE",
+    "id": "CORE",
+    "name": "CORE",
+    "groups": [
+      {
+        "serializableId": "PLUGIN-COMMON-GROUP-COMMON-ALL",
+        "id": "ALL",
+        "name": "All",
+        "categories": [
+          {
+            "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-ALL",
+            "id": "ALL",
+            "name": "All",
+            "contentType": "all",
+            "extensions": "",
+            "outputDirStr": "/home/projects/download-manager/rewrite/download-manager-client-gui",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+          },
+          {
+            "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-APPLICATION",
+            "id": "APPLICATION",
+            "name": "Applications",
+            "contentType": "application",
+            "extensions": "exe",
+            "outputDirStr": "/home/future/Downloader/Applications",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+          },
+          {
+            "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-COMPRESSED",
+            "id": "COMPRESSED",
+            "name": "Compressed",
+            "contentType": "compressed",
+            "extensions": "zip",
+            "outputDirStr": "/home/future/Downloader/Compressed",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+          },
+          {
+            "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-DOCUMENTS",
+            "id": "DOCUMENTS",
+            "name": "Documents",
+            "contentType": "text",
+            "extensions": "pdf",
+            "outputDirStr": "/home/future/Downloader/Documents",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+          },
+          {
+            "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-PHOTOS",
+            "id": "PHOTOS",
+            "name": "Photos",
+            "contentType": "image",
+            "extensions": "jpg",
+            "outputDirStr": "/home/future/Downloader/Photos",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+          },
+          {
+            "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-VIDEO",
+            "id": "VIDEO",
+            "name": "Videos",
+            "contentType": "video",
+            "extensions": "mp4",
+            "outputDirStr": "/home/future/Downloader/Videos",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+          },
+          {
+            "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-MUSIC",
+            "id": "MUSIC",
+            "name": "Music",
+            "contentType": "music",
+            "extensions": "mp3",
+            "outputDirStr": "/home/future/Downloader/Music",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+          },
+          {
+            "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-OTHER",
+            "id": "OTHER",
+            "name": "Other",
+            "contentType": "*",
+            "extensions": "*",
+            "outputDirStr": "/home/future/Downloader/Other",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+          }
+        ],
+        "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.group.CommonGroup"
+      },
+      {
+        "serializableId": "PLUGIN-COMMON-GROUP-COMMON-UNFINISHED",
+        "id": "UNFINISHED",
+        "name": "Unfinished",
+        "categories": [
+          {
+            "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-ALL",
+            "id": "ALL",
+            "name": "All",
+            "contentType": "all",
+            "extensions": "",
+            "outputDirStr": "/home/projects/download-manager/rewrite/download-manager-client-gui",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+          },
+          {
+            "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-APPLICATION",
+            "id": "APPLICATION",
+            "name": "Applications",
+            "contentType": "application",
+            "extensions": "exe",
+            "outputDirStr": "/home/future/Downloader/Applications",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+          },
+          {
+            "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-COMPRESSED",
+            "id": "COMPRESSED",
+            "name": "Compressed",
+            "contentType": "compressed",
+            "extensions": "zip",
+            "outputDirStr": "/home/future/Downloader/Compressed",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+          },
+          {
+            "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-DOCUMENTS",
+            "id": "DOCUMENTS",
+            "name": "Documents",
+            "contentType": "text",
+            "extensions": "pdf",
+            "outputDirStr": "/home/future/Downloader/Documents",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+          },
+          {
+            "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-PHOTOS",
+            "id": "PHOTOS",
+            "name": "Photos",
+            "contentType": "image",
+            "extensions": "jpg",
+            "outputDirStr": "/home/future/Downloader/Photos",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+          },
+          {
+            "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-VIDEO",
+            "id": "VIDEO",
+            "name": "Videos",
+            "contentType": "video",
+            "extensions": "mp4",
+            "outputDirStr": "/home/future/Downloader/Videos",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+          },
+          {
+            "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-MUSIC",
+            "id": "MUSIC",
+            "name": "Music",
+            "contentType": "music",
+            "extensions": "mp3",
+            "outputDirStr": "/home/future/Downloader/Music",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+          },
+          {
+            "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-OTHER",
+            "id": "OTHER",
+            "name": "Other",
+            "contentType": "*",
+            "extensions": "*",
+            "outputDirStr": "/home/future/Downloader/Other",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+          }
+        ],
+        "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.group.CommonGroup"
+      },
+      {
+        "serializableId": "PLUGIN-COMMON-GROUP-COMMON-COMPLETED",
+        "id": "COMPLETED",
+        "name": "Completed",
+        "categories": [
+          {
+            "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-ALL",
+            "id": "ALL",
+            "name": "All",
+            "contentType": "all",
+            "extensions": "",
+            "outputDirStr": "/home/projects/download-manager/rewrite/download-manager-client-gui",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+          },
+          {
+            "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-APPLICATION",
+            "id": "APPLICATION",
+            "name": "Applications",
+            "contentType": "application",
+            "extensions": "exe",
+            "outputDirStr": "/home/future/Downloader/Applications",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+          },
+          {
+            "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-COMPRESSED",
+            "id": "COMPRESSED",
+            "name": "Compressed",
+            "contentType": "compressed",
+            "extensions": "zip",
+            "outputDirStr": "/home/future/Downloader/Compressed",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+          },
+          {
+            "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-DOCUMENTS",
+            "id": "DOCUMENTS",
+            "name": "Documents",
+            "contentType": "text",
+            "extensions": "pdf",
+            "outputDirStr": "/home/future/Downloader/Documents",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+          },
+          {
+            "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-PHOTOS",
+            "id": "PHOTOS",
+            "name": "Photos",
+            "contentType": "image",
+            "extensions": "jpg",
+            "outputDirStr": "/home/future/Downloader/Photos",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+          },
+          {
+            "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-VIDEO",
+            "id": "VIDEO",
+            "name": "Videos",
+            "contentType": "video",
+            "extensions": "mp4",
+            "outputDirStr": "/home/future/Downloader/Videos",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+          },
+          {
+            "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-MUSIC",
+            "id": "MUSIC",
+            "name": "Music",
+            "contentType": "music",
+            "extensions": "mp3",
+            "outputDirStr": "/home/future/Downloader/Music",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+          },
+          {
+            "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-OTHER",
+            "id": "OTHER",
+            "name": "Other",
+            "contentType": "*",
+            "extensions": "*",
+            "outputDirStr": "/home/future/Downloader/Other",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+          }
+        ],
+        "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.group.CommonGroup"
+      }
+    ],
+    "downloadDialogClassStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.view.dialog.AddCommonDownloadDialog",
+    "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.plugin.CommonPlugin"
+  },
+  {
+    "serializableId": "PLUGIN-YOUTUBE-YOUTUBE",
+    "id": "YOUTUBE",
+    "name": "YOUTUBE",
+    "groups": [
+      {
+        "serializableId": "PLUGIN-YOUTUBE-GROUP-YOUTUBE-YOUTUBE",
+        "id": "YOUTUBE",
+        "name": "Youtube",
+        "categories": [
+          {
+            "serializableId": "PLUGIN-YOUTUBE-CATEGORY-YOUTUBE-ALL",
+            "id": "ALL",
+            "name": "All",
+            "contentType": "all",
+            "extensions": "",
+            "outputDirStr": "/home/projects/download-manager/rewrite/download-manager-client-gui",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.plugin.youtube.model.category.YoutubeCategory"
+          },
+          {
+            "serializableId": "PLUGIN-YOUTUBE-CATEGORY-YOUTUBE-VIDEO",
+            "id": "VIDEO",
+            "name": "Video",
+            "contentType": "video",
+            "extensions": "mp4",
+            "outputDirStr": "/home/future/Downloader/Video",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.plugin.youtube.model.category.YoutubeCategory"
+          },
+          {
+            "serializableId": "PLUGIN-YOUTUBE-CATEGORY-YOUTUBE-AUDIO",
+            "id": "AUDIO",
+            "name": "Audio",
+            "contentType": "audio",
+            "extensions": "mp3",
+            "outputDirStr": "/home/future/Downloader/Music",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.plugin.youtube.model.category.YoutubeCategory"
+          },
+          {
+            "serializableId": "PLUGIN-YOUTUBE-CATEGORY-YOUTUBE-OTHER",
+            "id": "OTHER",
+            "name": "Other",
+            "contentType": "*",
+            "extensions": "*",
+            "outputDirStr": "/home/future/Downloader/Other",
+            "comments": "",
+            "classStr": "com.mraleksmay.projects.download_manager.plugin.youtube.model.category.YoutubeCategory"
+          }
+        ],
+        "classStr": "com.mraleksmay.projects.download_manager.plugin.youtube.model.group.YoutubeGroup"
+      }
+    ],
+    "downloadDialogClassStr": "com.mraleksmay.projects.download_manager.plugin.youtube.view.dialog.AddYoutubeDownloadDialog",
+    "classStr": "com.mraleksmay.projects.download_manager.plugin.youtube.model.plugin.YoutubePlugin"
+  }
+]
+--DOWNLOADS_INFO
+[
+  {
+    "serializableId": "1607435973506-192190757633364--1960600070-531838842397855315",
+    "fileName": "watch?v\u003dVJ3u6zBcVSA",
+    "extension": "mp4",
+    "fullSize": 0,
+    "currentSize": 0,
+    "tmpDirStr": "/home/future/Downloader/tmp",
+    "outputDirStr": "/home/future/Downloader/Other",
+    "url": "https://www.youtube.com/watch?v\u003dVJ3u6zBcVSA",
+    "authorizationDataClassStr": "null",
+    "category": {
+      "serializableId": "PLUGIN-COMMON-CATEGORY-COMMON-OTHER",
+      "id": "OTHER",
+      "name": "Other",
+      "contentType": "*",
+      "extensions": "*",
+      "outputDirStr": "/home/future/Downloader/Other",
+      "comments": "",
+      "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.category.CommonCategory"
+    },
+    "formatterClassStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.download.CommonDownloadFormatter",
+    "addTime": 1607435973506,
+    "classStr": "com.mraleksmay.projects.download_manager.client.gui.core.impl.plugin.common.model.download.CommonDownload"
+  }
+]
