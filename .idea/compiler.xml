@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-view" />
+        <module name="common-exceptions" />
+        <module name="utils" />
+        <module name="gui" />
+        <module name="common-annotations" />
+        <module name="common-plugin" />
+        <module name="common-events" />
+        <module name="common-model" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="client-gui" target="11" />
+      <module name="common-annotations" target="11" />
+      <module name="common-events" target="11" />
+      <module name="common-exceptions" target="11" />
+      <module name="common-manager" target="11" />
+      <module name="common-model" target="11" />
+      <module name="common-plugin" target="11" />
+      <module name="common-view" target="11" />
+      <module name="gui" target="11" />
+      <module name="utils" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

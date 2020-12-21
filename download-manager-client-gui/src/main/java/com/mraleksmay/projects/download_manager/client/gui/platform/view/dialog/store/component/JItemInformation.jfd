@@ -1,0 +1,60 @@
+JFDML JFormDesigner: "7.0.3.0.337" Java: "11.0.7" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridBagLayout ) {
+			"$columnSpecs": "65:1.0"
+			"$rowSpecs": "0:1.0"
+			"$hGap": 5
+			"$vGap": 5
+			"$alignLeft": true
+			"$alignTop": true
+		} ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridBagLayout ) {
+				"$columnSpecs": "65, 0:1.0"
+				"$rowSpecs": "0:1.0, 0, 0"
+				"$hGap": 5
+				"$vGap": 5
+				"$alignTop": true
+				"$alignLeft": true
+			} ) {
+				name: "jpnl_item"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "jpnl_itemMouseClicked", true ) )
+				add( new FormComponent( "com.mraleksmay.projects.download_manager.client.gui.platform.view.dialog.store.component.JImagePanel" ) {
+					name: "jpnl_image"
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "jpnl_itemMouseClicked", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridheight": 3
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jlbl_title"
+					"text": "title"
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "jpnl_itemMouseClicked", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 1
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jlbl_version"
+					"text": "version"
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "jpnl_itemMouseClicked", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 1
+					"gridy": 1
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jlbl_author"
+					"text": "author"
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "jpnl_itemMouseClicked", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+					"gridx": 1
+					"gridy": 2
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 205, 75 )
+		} )
+	}
+}

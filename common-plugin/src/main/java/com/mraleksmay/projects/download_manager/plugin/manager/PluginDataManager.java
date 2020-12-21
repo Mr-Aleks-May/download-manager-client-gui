@@ -1,9 +1,9 @@
 package com.mraleksmay.projects.download_manager.plugin.manager;
 
 
-import com.mraleksmay.projects.download_manager.common.model.category.Category;
-import com.mraleksmay.projects.download_manager.common.model.group.Group;
-import com.mraleksmay.projects.download_manager.common.model.plugin.Plugin;
+import com.mraleksmay.projects.download_manager.plugin.model.category.Category;
+import com.mraleksmay.projects.download_manager.plugin.model.group.Group;
+import com.mraleksmay.projects.download_manager.plugin.model.plugin.Plugin;
 
 import java.net.URL;
 

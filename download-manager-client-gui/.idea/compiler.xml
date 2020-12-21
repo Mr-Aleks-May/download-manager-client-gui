@@ -6,21 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="youtube" />
         <module name="download-manager-client-gui" />
         <module name="common-events" />
+        <module name="youtube-plugin" />
         <module name="common-exceptions" />
-        <module name="download-manager-client-gui-commons" />
         <module name="common-utils" />
         <module name="common-annotations" />
         <module name="common-plugin" />
+        <module name="download-manager-client-gui-commons" />
         <module name="common-view" />
-        <module name="common-model" />
-        <module name="youtube-plugin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="client-commons" target="11" />
       <module name="common-managers" target="11" />
+      <module name="common-model" target="11" />
+      <module name="test" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

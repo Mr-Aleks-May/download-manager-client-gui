@@ -1,13 +1,10 @@
 package com.mraleksmay.projects.download_manager.client.gui;
 
-import com.mraleksmay.projects.download_manager.client.gui.core.loader.CommonsLoader;
-import com.mraleksmay.projects.download_manager.client.gui.core.view.ViewConfigurator;
-import com.mraleksmay.projects.download_manager.client.gui.core.manager.ApplicationManager;
-import com.mraleksmay.projects.download_manager.client.gui.core.view.frame.downloader.MainFrame;
+import com.mraleksmay.projects.download_manager.client.gui.platform.view.ViewConfigurator;
+import com.mraleksmay.projects.download_manager.client.gui.platform.subsystem.ApplicationManager;
+import com.mraleksmay.projects.download_manager.client.gui.platform.view.frame.downloader.MainFrame;
 
-import java.io.File;
 import java.io.IOException;
-import java.lang.reflect.InvocationTargetException;
 
 /**
  * Start application.
@@ -25,10 +22,12 @@ public class AppStart {
         ViewConfigurator.configureView();
 
         MainFrame frame = new MainFrame();
+        frame.init();
         applicationManager = new ApplicationManager(frame);
 
         try {
             applicationManager.init();
+
             frame.setApplicationManager(applicationManager);
             frame.showFrame();
         } catch (IOException e) {

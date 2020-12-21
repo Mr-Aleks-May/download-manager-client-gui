@@ -17,13 +17,13 @@
     <dependencies>
         <dependency>
             <groupId>com.mraleksmay.projects.download-manager</groupId>
-            <artifactId>common-model</artifactId>
+            <artifactId>common-exceptions</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.mraleksmay.projects.download-manager</groupId>
-            <artifactId>common-exceptions</artifactId>
+            <artifactId>common-plugin</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

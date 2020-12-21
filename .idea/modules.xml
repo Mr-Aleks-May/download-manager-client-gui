@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common-annotations/common-annotations.iml" filepath="$PROJECT_DIR$/common-annotations/common-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-events/common-events.iml" filepath="$PROJECT_DIR$/common-events/common-events.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-exceptions/common-exceptions.iml" filepath="$PROJECT_DIR$/common-exceptions/common-exceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-model/common-model.iml" filepath="$PROJECT_DIR$/common-model/common-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-plugin/common-plugin.iml" filepath="$PROJECT_DIR$/common-plugin/common-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-view/common-view.iml" filepath="$PROJECT_DIR$/common-view/common-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/download-manager-client-gui/gui.iml" filepath="$PROJECT_DIR$/download-manager-client-gui/gui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-utils/utils.iml" filepath="$PROJECT_DIR$/common-utils/utils.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,7 +1,7 @@
 package com.mraleksmay.projects.download_manager.common.view;
 
 
-import com.mraleksmay.projects.download_manager.common.model.download.Download;
+import com.mraleksmay.projects.download_manager.plugin.model.download.Download;
 
 /**
  * Allows you to set and get the download with which we will work in the dialogue.

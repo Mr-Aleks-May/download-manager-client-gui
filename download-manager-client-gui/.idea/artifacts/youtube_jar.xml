@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="youtube:jar">
+    <output-path>$PROJECT_DIR$/plugins</output-path>
+    <root id="archive" name="youtube.jar">
+      <element id="module-output" name="youtube" />
+      <element id="module-output" name="common-events" />
+      <element id="module-output" name="common-annotations" />
+      <element id="module-output" name="common-view" />
+      <element id="module-output" name="common-exceptions" />
+      <element id="module-output" name="common-plugin" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/sealedtx/java-youtube-downloader/2.4.4/java-youtube-downloader-2.4.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.62/fastjson-1.2.62.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/mraleksmay/projects/download-manager/client/utils/1.0-SNAPSHOT/utils-1.0-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/sejda/webp-imageio/webp-imageio-sejda/0.1.0/webp-imageio-sejda-0.1.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
